@@ -1,59 +1,69 @@
-<h1 align="center">
-  🏡 Firdaus Residence
-</h1>
+<div align="center">
+  <h1>🏡 Firdaus Residence</h1>
+  <p><strong>Exclusive Property & Real Estate Web Platform</strong></p>
+  
+  <a href="https://firdaus-residence.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-View_Website-success?style=for-the-badge&logo=vercel" alt="Live Demo" />
+  </a>
 
-<p align="center">
-  <strong>Platform Jual Beli Properti & Villa Eksklusif</strong><br>
-  <a href="https://firdaus-residence.vercel.app">Lihat Demo Live</a>
-</p>
+  <br><br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
-</p>
+  <img src="https://via.placeholder.com/800x450.png?text=Insert+Your+Screenshot+Here" alt="Firdaus Residence Preview" width="100%" style="border-radius: 10px;" />
 
----
+  <br><br>
 
-## 📖 Tentang Proyek
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white" alt="GSAP" />
+</div>
 
-**Firdaus Residence** adalah *website frontend* yang dirancang untuk kebutuhan bisnis properti dan vila. Website ini memberikan pengalaman menelusuri katalog properti yang mulus dengan animasi modern yang memanjakan mata, membuat calon pembeli dapat mengeksplorasi setiap detail rumah tangga atau vila impian mereka secara interaktif.
+<hr />
 
-## 🌟 Fitur Halaman
+## 📖 About The Project
 
-Website ini terdiri dari beberapa halaman utama yang terintegrasi:
+**Firdaus Residence** is a modern front-end web application designed specifically for the real estate and property business. This website offers a seamless property browsing experience, enriched with beautiful and modern animations. It allows potential buyers to explore every detail of their dream houses or villas interactively.
 
-- 🏠 **Homepage:** Halaman depan dengan *hero section* dan ringkasan properti unggulan.
-- 🏢 **Tipe Rumah (Product List):** Katalog daftar properti dan vila yang tersedia untuk dijual/disewa.
-- 🔍 **Detail Rumah (Product Detail):** Informasi lengkap mengenai fasilitas, harga, dan galeri sebuah properti.
-- 📰 **Blog:** Artikel, tips & trik seputar desain interior dan investasi properti.
-- 📝 **Detail Blog:** Halaman khusus untuk membaca artikel secara penuh.
-- ℹ️ **Tentang Kami (About):** Informasi mengenai perusahaan / agen properti Firdaus Residence.
-- 📞 **Kontak (Contact):** Formulir dan informasi kontak yang dapat dihubungi.
+## 🌟 Key Pages & Features
 
-## 🛠️ Stack Teknologi
+This platform consists of several integrated main pages:
 
-Untuk menciptakan UI/UX yang dinamis dan responsif, proyek ini menggunakan perpaduan dari:
-* **Struktur & Gaya Utama:** HTML5 & CSS3
-* **Interaktivitas:** Vanilla JavaScript
-* **CSS Framework:** Bootstrap (Memastikan desain responsif)
-* **Animasi:** * [GSAP](https://greensock.com/gsap/) (Animasi tingkat lanjut)
-  * [AOS](https://michalsnik.github.io/aos/) (Animasi *scroll-reveal*)
+- 🏠 **Homepage:** An engaging landing page with a hero section and featured properties overview.
+- 🏢 **Property Types (Product List):** A comprehensive catalog of houses and villas available for sale or rent.
+- 🔍 **Property Details (Product Detail):** In-depth information regarding facilities, pricing, and property galleries.
+- 📰 **Blog:** Articles, tips, and tricks regarding interior design and property investment.
+- 📝 **Blog Detail:** A dedicated page for a comfortable full-article reading experience.
+- ℹ️ **About Us:** Information about the Firdaus Residence company and property agency.
+- 📞 **Contact:** Contact information and a direct inquiry form.
 
-## 📂 Struktur Direktori
+## 🛠️ Tech Stack & Tools
+
+To create a dynamic and highly responsive UI/UX, this project utilizes a combination of:
+
+* **Structure & Styling:** HTML5 & CSS3
+* **Interactivity:** Vanilla JavaScript
+* **CSS Framework:** Bootstrap (Ensuring mobile-first responsiveness)
+* **Animations:** * [GSAP (GreenSock)](https://greensock.com/gsap/) - For advanced and smooth UI animations.
+  * [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) - For beautiful scroll-reveal effects.
+
+## 📂 Directory Structure
+
+Here is a brief overview of the folder structure in this repository:
 
 ```text
 📦 firdaus-residence
- ┣ 📂 content/       # Berisi aset konten spesifik
- ┣ 📂 css/           # File stylesheet & styling kustom
- ┣ 📂 img/           # Gambar aset (properti, banner, dll)
- ┣ 📂 js/            # Logika script & konfigurasi animasi
- ┣ 📜 index.html           # Halaman Utama
- ┣ 📜 tipe_rumah.html      # Katalog Properti
- ┣ 📜 detail_rumah.html    # Detail Spesifik Properti
- ┣ 📜 blog.html            # Daftar Artikel
- ┣ 📜 detail_blog.html     # Baca Artikel
- ┣ 📜 tentang.html         # Profil Perusahaan
- ┗ 📜 kontak.html          # Halaman Hubungi Kami
+ ┣ 📂 content/             # Specific content assets
+ ┣ 📂 css/                 # Custom stylesheets
+ ┣ 📂 img/                 # Image assets (properties, banners, etc.)
+ ┣ 📂 js/                  # JavaScript logic & animation configurations
+ ┣ 📜 index.html           # Main Landing Page
+ ┣ 📜 tipe_rumah.html      # Property Catalog Page
+ ┣ 📜 detail_rumah.html    # Specific Property Detail Page
+ ┣ 📜 blog.html            # Article List Page
+ ┣ 📜 detail_blog.html     # Article Reading Page
+ ┣ 📜 tentang.html         # Company Profile Page
+ ┗ 📜 kontak.html          # Contact Us Page
+```
+
+Crafted with passion for front-end development by PutraFirdausR
